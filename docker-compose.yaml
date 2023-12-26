@@ -6,7 +6,7 @@ services:
       - ./data/mocksensor:/tmp/
   emqx:
     user: root
-    image: "emqx:4.4.3"
+    image: "emqx:5.3.2"
     ports:
       - "18083:18083" 
     volumes:
