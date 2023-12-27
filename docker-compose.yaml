@@ -9,9 +9,9 @@ services:
     image: "emqx:5.3.2"
     ports:
       - "18083:18083"
-      - 1883:1883
-      - 8883:8883
-      - 8083:8083 
+      - "1883:1883"
+      - "8883:8883"
+      - "8083:8083" 
     volumes:
       - ./data/emqx/data:/opt/emqx/data
       - ./data/emqx/log:/opt/emqx/log
